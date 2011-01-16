@@ -1,0 +1,20 @@
+What is FareTracks?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+FareTracks is a browser extension and online service that allows users to 
+detect airfares as they search for them and track them on a web site.  The
+web site provides them with cumulative statistics and trends of airfares.
+
+
+Project State
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+A first prototype written using Python in April 2010 proved the concept.
+However, a different distribution model is necessary.
+
+Using browser extensions, and detecting fares using Javascript, we can
+now move forward with this project.
+
+
+Project Roadmap
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This is a project that is being worked on in the spare time.  Progress
+will be slow and updates will occur has it is convenient for me.
