@@ -1,0 +1,13 @@
+{
+  "name": "Fare Tracks",
+  "version": "0.1",
+  "description": "Detect and track airfares as you search.",
+  "background_page": "background.html",
+  "content_scripts": [
+    {
+      "matches" : ["http://www.expedia.com/*", "http://www.expedia.ca/*"],
+      "css": ["style.css"],
+      "js": ["jquery.js", "ft.js"]
+    }
+  ]
+}
