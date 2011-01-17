@@ -3,11 +3,21 @@
   "version": "0.1",
   "description": "Detect and track airfares as you search.",
   "background_page": "background.html",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "popup": "popup.html"
+  },
   "content_scripts": [
     {
-      "matches" : ["http://www.expedia.com/*", "http://www.expedia.ca/*"],
+      "matches" : [
+        "http://www.expedia.com/*", 
+        "http://www.expedia.ca/*",
+        "http://www.travelocity.com/*",
+        "http://www.travelocity.ca/*",
+        "http://www.orbitz.com/*"
+      ],
       "css": ["style.css"],
-      "js": ["jquery.js", "ft.js"]
+      "js": ["jquery-1.4.4.min.js", "ft.js"]
     }
   ]
 }
